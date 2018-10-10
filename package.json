@@ -1,6 +1,6 @@
 {
   "name": "interest-classification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine best category/sub-category for a given personal interest",
   "main": "index.js",
   "directories": {

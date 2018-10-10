@@ -26,6 +26,12 @@ describe('interests', () => {
             let result = search(testString);
             assert.equal('MUSEUM/ART GALLERY', result.interest);
         })
+
+        it('should do category match', () => {
+            let testString = 'Dog Training';
+            let result = search(testString);
+            assert.equal('DOG TRAINER', result.interest);
+        })
     })
 })
 
