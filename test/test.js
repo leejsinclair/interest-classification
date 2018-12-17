@@ -32,6 +32,17 @@ describe('interests', () => {
             let result = search(testString);
             assert.equal('DOG TRAINER', result.interest);
         })
+        it('blank text', () => {
+            let testString = '';
+            let result = search(testString);
+            assert.equal(null, result.interest);
+        })
+
+        it('space text', () => {
+            let testString = ' ';
+            let result = search(testString);
+            assert.equal(null, result.interest);
+        })
     })
 })
 
