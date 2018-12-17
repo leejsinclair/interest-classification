@@ -119,6 +119,7 @@ module.exports = [
     { "interest": "Business Person", "category": "Business", "sub_category": null },
     { "interest": "Business Service", "category": "Business", "sub_category": null },
     { "interest": "Business Services", "category": "Business", "sub_category": null },
+    { "interest": "Products Services", "category": "Business", "sub_category": null },
     { "interest": "Butterfly Watching", "category": "Nature", "sub_category": null },
     { "interest": "Button Collecting", "category": "Collecting", "sub_category": null },
     { "interest": "Cable & Satellite TV Production & Distribution", "category": "Media", "sub_category": null },

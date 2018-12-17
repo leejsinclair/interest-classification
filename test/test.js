@@ -43,6 +43,14 @@ describe('interests', () => {
             let result = search(testString);
             assert.equal(null, result.interest);
         })
+
+        it('Product\/Service', () => {
+            let testString = 'Product\/Service';
+            let result = search(testString);
+            assert.equal('PRODUCTS SERVICES', result.interest);
+            //'PRODUCTS SERVICES',
+            // console.log( result );
+        })
     })
 })
 
